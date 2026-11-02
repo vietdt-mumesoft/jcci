@@ -1,0 +1,124 @@
+/* Common */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fix-space {
+    margin-right: -5px;
+}
+
+.fix-space-x {
+    margin-inline: -5px;
+}
+
+/* Fix */
+.button.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tax-list ul li a {
+    margin-right: 1px;
+}
+
+.search-results .tax-name {
+    height: auto !important;
+}
+
+#mobile-logo {
+    padding-inline: 16px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+#wide-nav-mobile {
+    display: none;
+    background: none;
+}
+
+#wide-nav-mobile .icon-menu {
+    font-size: 50px;
+}
+
+#wide-nav-mobile .icon-menu-text {
+    font-size: 14px;
+    color: #959595;
+    font-weight: 400;
+    margin-top: -6px;
+    display: inline-block;
+}
+
+.pc-search-form {
+    display: block;
+}
+
+.mobile-search-form .tax-search {
+    margin-top: 0px;
+}
+
+.mobile-sidebar .nav-vertical > li:first-child {
+    border-top: 1px solid #034167;
+}
+
+/* Fix pagging links */
+ul.links li {
+    margin: 0 .23em;
+    display: inline-block;
+}
+
+/* Fix arrow */
+.page-jcci-card .btn-arrow {
+    margin-bottom: 21px;
+}
+
+/* Hide header bottom on mobile */
+@media (max-width: 849px) {
+    /* Fix menu col */
+    #wide-nav-mobile .menu-col {
+        margin-inline: 0 auto;
+    }
+
+    #wide-nav-mobile .search-col {
+        margin-inline: auto 0;
+    }
+
+    #wide-nav {
+        display: none !important;
+    }
+
+    #wide-nav-mobile {
+        display: flex !important;
+        margin-bottom: 0;
+    }
+
+    #wide-nav-mobile .icon-menu {
+        height: 55px;
+    }
+
+    .pc-search-form {
+        display: none;
+    }
+
+    .page-wrapper {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    #wide-nav-mobile .menu-col {
+        margin-inline: auto;
+    }
+    
+    #wide-nav-mobile .search-col {
+        margin-inline: auto;
+    }
+}
+
+@media only screen and (min-width: 49em) {
+    .block-items .block-items-right .detail ul li .tel,
+    .block-items .block-items-right .detail ul li .tel + p {
+        font-size: 18px;
+    }
+}

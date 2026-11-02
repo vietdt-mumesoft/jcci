@@ -1,0 +1,9 @@
+{
+  "name": "E-VANCE/real-media-library",
+  "description": "Privat repo for the 'Real Media Library'-plugin via CodeCanyon",
+  "homepage": "https://github.com/E-VANCE/real-media-library",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.4"
+  }
+}

@@ -1,0 +1,24 @@
+name: jcci-migration
+
+services:
+  jcci-al2023:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jcci-al2023
+    hostname: jcci.test
+    ports:
+      - "80:80"
+      - "443:443"
+    extra_hosts:
+      - "jcci.test:127.0.0.1"
+      - "jcci.vn:127.0.0.1"
+      - "www.jcci.vn:127.0.0.1"
+    volumes:
+      - ../backups:/backups:ro
+      - ../src:/var/www/jcci
+      - jcci_mysql:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  jcci_mysql:

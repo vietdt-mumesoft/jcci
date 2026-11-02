@@ -1,0 +1,44 @@
+.login {
+    background-image:url('../img/bg-login-page.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-color: #101010;
+
+    form{
+        box-shadow:none;
+        padding:20px;
+        .forgetmenot{
+            float:none;
+        }
+    }
+
+    label {
+        color: #555;
+        font-size: 14px;
+    }
+    #backtoblog a {
+        color: #fff;
+        &:hover {
+            color: #e8e8e8;
+        }
+    }
+}
+
+#login {
+    h1 a {
+        background-image: url('../img/logo-top.png');
+        background-size: contain;
+        background-position: center;
+        width: 200px;
+    }
+    form {
+        p.submit{
+            margin-top:15px;
+        }
+    }
+}
+
+p#nav {
+    display: none;
+}

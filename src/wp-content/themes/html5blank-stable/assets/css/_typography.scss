@@ -1,0 +1,128 @@
+/*------------------------------------*\
+    TYPOGRAPHY
+\*------------------------------------*/
+$font-path: "../fonts";
+
+@font-face {
+    font-family: 'SVN-Poppins';
+    src: url('#{$font-path}/SVN-PoppinsMedium.eot');
+    src: url('#{$font-path}/SVN-PoppinsMedium.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/SVN-PoppinsMedium.woff2') format('woff2'),
+        url('#{$font-path}/SVN-PoppinsMedium.woff') format('woff'),
+        url('#{$font-path}/SVN-PoppinsMedium.ttf') format('truetype'),
+        url('#{$font-path}/SVN-PoppinsMedium.svg#SVN-PoppinsMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SVN-Poppins';
+    src: url('#{$font-path}/SVN-Poppins.eot');
+    src: url('#{$font-path}/SVN-Poppins.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/SVN-Poppins.woff2') format('woff2'),
+        url('#{$font-path}/SVN-Poppins.woff') format('woff'),
+        url('#{$font-path}/SVN-Poppins.ttf') format('truetype'),
+        url('#{$font-path}/SVN-Poppins.svg#SVN-Poppins') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SVN-Poppins';
+    src: url('#{$font-path}/SVN-PoppinsLight.eot');
+    src: url('#{$font-path}/SVN-PoppinsLight.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/SVN-PoppinsLight.woff2') format('woff2'),
+        url('#{$font-path}/SVN-PoppinsLight.woff') format('woff'),
+        url('#{$font-path}/SVN-PoppinsLight.ttf') format('truetype'),
+        url('#{$font-path}/SVN-PoppinsLight.svg#SVN-PoppinsLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mplus 1p';
+    src: url('#{$font-path}/Mplus1p-Bold.eot');
+    src: url('#{$font-path}/Mplus1p-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/Mplus1p-Bold.woff2') format('woff2'),
+        url('#{$font-path}/Mplus1p-Bold.woff') format('woff'),
+        url('#{$font-path}/Mplus1p-Bold.ttf') format('truetype'),
+        url('#{$font-path}/Mplus1p-Bold.svg#Mplus1p-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mplus 1p';
+    src: url('#{$font-path}/Mplus1p-Regular.eot');
+    src: url('#{$font-path}/Mplus1p-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/Mplus1p-Regular.woff2') format('woff2'),
+        url('#{$font-path}/Mplus1p-Regular.woff') format('woff'),
+        url('#{$font-path}/Mplus1p-Regular.ttf') format('truetype'),
+        url('#{$font-path}/Mplus1p-Regular.svg#Mplus1p-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mplus 1p';
+    src: url('#{$font-path}/Mplus1p-Medium.eot');
+    src: url('#{$font-path}/Mplus1p-Medium.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/Mplus1p-Medium.woff2') format('woff2'),
+        url('#{$font-path}/Mplus1p-Medium.woff') format('woff'),
+        url('#{$font-path}/Mplus1p-Medium.ttf') format('truetype'),
+        url('#{$font-path}/Mplus1p-Medium.svg#Mplus1p-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mplus 1p';
+    src: url('#{$font-path}/Mplus1p-Light.eot');
+    src: url('#{$font-path}/Mplus1p-Light.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/Mplus1p-Light.woff2') format('woff2'),
+        url('#{$font-path}/Mplus1p-Light.woff') format('woff'),
+        url('#{$font-path}/Mplus1p-Light.ttf') format('truetype'),
+        url('#{$font-path}/Mplus1p-Light.svg#Mplus1p-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mplus 1p';
+    src: url('#{$font-path}/Mplus1p-ExtraBold.eot');
+    src: url('#{$font-path}/Mplus1p-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-path}/Mplus1p-ExtraBold.woff2') format('woff2'),
+        url('#{$font-path}/Mplus1p-ExtraBold.woff') format('woff'),
+        url('#{$font-path}/Mplus1p-ExtraBold.ttf') format('truetype'),
+        url('#{$font-path}/Mplus1p-ExtraBold.svg#Mplus1p-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$font-path}/fontawesome-webfont.eot?v=4.7.0');
+  src: url('#{$font-path}/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), 
+    url('#{$font-path}/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), 
+    url('#{$font-path}/fontawesome-webfont.woff?v=4.7.0') format('woff'), 
+    url('#{$font-path}/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), 
+    url('#{$font-path}/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.f-size-16 { font-size: #{$f-size-16}rem !important;}
+.f-size-18 { font-size: #{$f-size-18}rem !important;}
+.f-size-20 { font-size: #{$f-size-20}rem !important;}
+.f-size-22 { font-size: #{$f-size-22}rem !important;}
+.f-size-28 { font-size: #{$f-size-28}rem !important;}
+.f-size-30 { font-size: #{$f-size-30}rem !important;}
+.f-size-48 { font-size: #{$f-size-48}rem !important;}
+
+.font-weight-light {font-weight: 300 !important;}
+.font-weight-medium {font-weight: 500 !important;}
+.font-weight-extrabold {font-weight: 800 !important;}
+
+.text-primary { color: $color-primary !important;}

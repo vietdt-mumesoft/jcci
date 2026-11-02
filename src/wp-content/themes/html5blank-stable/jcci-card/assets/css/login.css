@@ -1,0 +1,115 @@
+#login #login_error,#login .message {
+margin:0 auto 10px;
+max-width:323px;
+text-align:center;
+}
+.privacy-policy-page-link{
+    display:none;
+}
+.cptch_block label,body.login div#login form#loginform p {
+color:#717171!important;
+}
+
+body.login {background-size:inherit;display:table;width:100%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */ /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 */background: #d4d4d4f1;}
+body.login #nav {text-align:center;display: none;}
+body.login div#login { 
+margin:10% auto 0;
+max-width:960px;
+padding:0;
+width:100%;
+}
+
+body.login div#login form#loginform {
+background:none repeat scroll 0 0 #fff;
+border:medium none;
+box-shadow:0 1px 1px rgba(136,136,136,0.62);
+margin:0 auto;
+max-width:300px;
+padding:25px;
+}
+
+body.login div#login form#loginform input.input {
+background-color:#f9f9f9;
+border:0;
+border-radius:3px;
+box-shadow:inset 0 0 4px rgba(0,0,0,0.15);
+color:#333;
+font-family:arial;
+font-size:14px;
+font-weight:400;
+height:40px;
+margin:0 0 15px;
+padding-left:4%;
+width:100%;
+}
+
+body.login div#login form#loginform p label br {
+display:none;
+}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+margin-top:4px;
+vertical-align:top;
+}
+
+body.login div#login form#loginform p.forgetmenot label {border:medium none;color:#717171!important;float:left;font-size:13px!important;line-height:24px;}
+
+body.login div#login form#loginform p.submit input#wp-submit {background: #d82621;border:0;border-radius:3px;box-shadow:none;color:#FFF;font-size:14px;height:30px;line-height:30px;text-shadow:none;text-transform: uppercase;}
+
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+text-shadow:none;
+}
+
+body.login div#login h1 {
+margin-bottom:30px;
+}
+
+body.login div#login h1 a {-moz-transition:all .3s ease 0;-o-transition:all .3s ease 0;-webkit-transition:all .3s ease 0;background-image:url(../image/logo.png);background-size:inherit;clear:both;display:block;height: 80px;margin:0 auto;min-height: 140px!important;padding-top:0;transition:all .3s ease 0;width:320px!important;}
+
+body.login div#login h1 a:hover {
+filter:Alpha(opacity=50);
+opacity:0.5;
+}
+
+body.login div#login p#backtoblog {
+display:none;
+margin:5px auto 0;
+max-width:315px;
+padding:5px 5px 45px;
+width:96%;
+}
+
+body.login div#login p#backtoblog a {
+background-color:#21759b;
+background:linear-gradient(tobottom,rgb(42,149,197), #21759b);
+border:1px solid #267aa0;
+border-radius:3px 3px 3px 3px;
+box-shadow:0 1px 0 rgba(120,200,230,0.8) inset;
+color:#fff!important;
+padding:5px 10px;
+text-decoration:none;
+text-shadow:none;
+}
+
+body.login div#login p#backtoblog a:hover {
+background-color:#278ab7;
+background-image:linear-gradient(tobottom,rgb(46,159,210), #21759b);
+}
+
+body.login div#login p#nav {
+clear:both;
+display:none;
+margin:0 auto;
+max-width:290px;
+padding:0 0 40px;
+width:100%;
+}
+
+body.login div#login p#nav a {
+color:#FFD;
+font-size:14px;
+}
+
+body.login label {
+font-size:0;
+}

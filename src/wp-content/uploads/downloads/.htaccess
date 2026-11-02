@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Login JCCI"
+AuthUserFile /var/www/html/wp-content/uploads/downloads/.htpasswd
+Require valid-user
+
