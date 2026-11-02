@@ -1,6 +1,7 @@
 <?php 
 $term = get_queried_object();
-$parent_cat_name = get_the_category_by_ID($term->parent);
+$parent_term = $term->parent ? get_term( $term->parent, $term->taxonomy ) : null;
+$parent_cat_name = $parent_term && ! is_wp_error( $parent_term ) ? $parent_term->name : $term->name;
 $main_title = [$parent_cat_name];
 $main_title = join('_',$main_title);
 
