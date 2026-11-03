@@ -42,7 +42,7 @@ class PLL_Walker_Dropdown extends Walker {
 	 * @param array  $args              An array of arguments.
 	 * @param string $output            Passed by reference. Used to append additional content.
 	 */
-	public function display_element( $element, &$children_elements, $max_depth, $depth, $args, &$output ) {
+	public function display_element( $element, &$children_elements, $max_depth, $depth = 0, $args, &$output ) {
 		$element = (object) $element; // Make sure we have an object
 		$element->parent = $element->id = 0; // Don't care about this
 		parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
@@ -67,13 +67,7 @@ class PLL_Walker_Dropdown extends Walker {
 	 * @param array $args
 	 * @return string
 	 */
-	public function walk( $elements, $max_depth = -1, ...$args ) {
-		if ( is_array( $max_depth ) ) {
-			$args = $max_depth;
-		} else {
-			$args = isset( $args[0] ) ? $args[0] : array();
-		}
-
+	public function walk( $elements, $args = array() ) {
 		$output = '';
 		$args = wp_parse_args( $args, array( 'value' => 'slug', 'name' => 'lang_choice' ) );
 
