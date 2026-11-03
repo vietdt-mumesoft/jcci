@@ -43,7 +43,6 @@ class PLL_Links_Directory extends PLL_Links_Permalinks {
 
 		// Make sure to prepare rewrite rules when flushing
 		add_action( 'pre_option_rewrite_rules', array( $this, 'prepare_rewrite_rules' ) );
-		add_action( 'wp_loaded', array( $this, 'prepare_rewrite_rules' ), 9 );
 	}
 
 	/**
